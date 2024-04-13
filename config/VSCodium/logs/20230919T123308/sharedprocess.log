@@ -1,0 +1,11 @@
+2023-09-19 12:33:09.051 [info] Started initializing default profile extensions in extensions installation folder. file:///home/vv/.vscode-oss/extensions
+2023-09-19 12:33:09.169 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/vv/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/vv/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-09-19 12:33:09.169 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/vv/.vscode-oss/extensions
+2023-09-19 12:33:33.077 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2023-09-19 12:33:34.290 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2023-09-19 12:33:36.660 [info] Extension signature verification is not done: ms-ceintl.vscode-language-pack-zh-hans
+2023-09-19 12:33:36.716 [info] Extracted extension to file:///home/vv/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.82.0-universal: ms-ceintl.vscode-language-pack-zh-hans
+2023-09-19 12:33:36.718 [info] Renamed to /home/vv/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.82.0-universal
+2023-09-19 12:33:36.718 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2023-09-19 12:33:36.721 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-09-19 12:33:36.763 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans

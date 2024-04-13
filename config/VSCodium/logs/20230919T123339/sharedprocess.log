@@ -1,0 +1,14 @@
+2023-09-19 12:34:02.855 [info] Getting Manifest... equinusocio.vsc-community-material-theme
+2023-09-19 12:34:04.070 [info] Installing extension: equinusocio.vsc-community-material-theme
+2023-09-19 12:34:04.587 [info] Extension signature verification is not done: equinusocio.vsc-community-material-theme
+2023-09-19 12:34:04.607 [info] Extracted extension to file:///home/vv/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.6-universal: equinusocio.vsc-community-material-theme
+2023-09-19 12:34:04.609 [info] Renamed to /home/vv/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.6-universal
+2023-09-19 12:34:04.609 [info] Extracting extension completed. equinusocio.vsc-community-material-theme
+2023-09-19 12:34:04.612 [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+2023-09-19 12:34:17.386 [info] Getting Manifest... vue.volar
+2023-09-19 12:34:17.757 [info] Installing extension: vue.volar
+2023-09-19 12:34:20.366 [info] Extension signature verification is not done: vue.volar
+2023-09-19 12:34:20.396 [info] Extracted extension to file:///home/vv/.vscode-oss/extensions/vue.volar-1.8.11-universal: vue.volar
+2023-09-19 12:34:20.397 [info] Renamed to /home/vv/.vscode-oss/extensions/vue.volar-1.8.11-universal
+2023-09-19 12:34:20.398 [info] Extracting extension completed. vue.volar
+2023-09-19 12:34:20.402 [info] Extension installed successfully: vue.volar

@@ -1,0 +1,28 @@
+[colors.primary]
+background = "#2d353b"
+
+[cursor]
+blink_interval = 600
+blink_timeout = 0
+
+[cursor.style]
+blinking = "Always"
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Light"
+
+[window]
+startup_mode = "Fullscreen"
+opacity = 0.95

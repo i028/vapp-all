@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 0.6,
+    "editor.fontSize": 16,
+    "editor.hover.delay": 3000,
+    "security.workspace.trust.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Sonokai Maia",
+    "Codegeex.Survey": false,
+    "Codegeex.Privacy": false,
+    "editor.minimap.enabled": false
+}

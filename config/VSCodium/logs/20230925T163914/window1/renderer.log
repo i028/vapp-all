@@ -1,0 +1,9 @@
+2023-09-25 16:39:15.518 [error] Error: 由于找不到该文件，因此无法打开编辑器。
+    at L.handleSetInputError (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:30242)
+    at async L.setInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:29105)
+    at async s.doSetInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2322:32218)
+    at async s.doOpenEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2322:30137)
+    at async s.openEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2322:28885)
+    at async vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2511:16916
+2023-09-25 16:39:15.657 [warning] [Vue.volar]: 无法注册“typescript.tsdk”。此属性已注册。
+2023-09-25 16:39:18.529 [info] [perf] Render performance baseline is 22ms

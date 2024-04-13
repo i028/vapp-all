@@ -1,0 +1,19 @@
+i028 token
+RemoteCoss
+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
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/your-name/repo-name.git(https://token@github.com/your-name/repo-name.git)
+
+git push -u origin master
+
+-- git pull --rebase origin master

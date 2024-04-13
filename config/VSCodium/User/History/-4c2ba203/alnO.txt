@@ -1,0 +1,101 @@
+Arch Linux Notes
+
+libreoffice
+sudo pacman -S libreoffice-fresh libreoffice-fresh-zh-cn
+
+debtap (用于安装deb包,)
+sudo pacman -S debtap
+sudo debtap -u
+sudo debtap xxx.deb
+sudo pacman -U xxx.pkg.tar.zst
+
+
+
+通过登录管理器进入DWM
+使用root权限到/usr/share/xsessions/新建一个文件，名称可以为dwm.desktop，内容如下：
+
+# /usr/share/xsessions/dwm.desktop
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dwm
+Comment=Dynamic window manager
+Exec=dwm
+Icon=dwm
+Type=XSession
+然后启动登录管理器，例如SDDM，即可在登录界面选择DWM然后进入到DWM了。
+
+
+lxrandr 分辨率与刷新率设置
+    可以用xrandr -q查看当前显示器的分辨率，刷新率，以及当前显示器所使用的模式。
+
+kdiff3 解决冲突的工具
+    kdiff3 是一个用于解决冲突的工具，可以用于解决git冲突。
+
+
+======================================
+======================================
+virtualbox 安装
+
+    安装 virtualbox-guest-utils
+
+
+    安装 virtualbox-guest-utils
+    sudo pacman -S virtualbox-guest-utils
+
+
+    选择 virtualbox-guest-modules-arch 进行安装
+
+
+    加载 VirtualBox 内核模块
+
+
+    手动加载模块
+    sudo modprobe -a vboxguest vboxsf vboxvideo
+
+
+    开机自动加载模块
+    sudo systemctl enable systemd-modules-load.service 
+
+
+    启动 VirtualBox增强
+
+
+    使用参数启动
+    VBoxClient --clipboard --draganddrop --seamless --display --checkhostversion
+
+
+    使用 VBoxClient-all 启动
+    sudo VBoxClient
+
+
+    启用共享目录
+
+
+    手动挂载
+    sudo mount -t vboxsf <共享目录的名字> <客户机系统的挂载点>
+
+
+    自动挂载
+    virtual box -> 设备 -> 共享文件夹 ->共享文件夹.....->➕-> 自动挂载->固定分配
+
+
+
+    创建软连接访问
+    $ ln -s /media/virtualbox_share ~/virtualbox_share
+
+    作者：Leaf1993
+    链接：https://juejin.cn/post/6844904023523328007
+    来源：稀土掘金
+    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+======================================
+
+
+
+
+
+
+
+
+
+    

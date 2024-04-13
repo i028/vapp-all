@@ -1,0 +1,10 @@
+Arch Linux Notes
+
+libreoffice
+sudo pacman -S libreoffice-fresh libreoffice-fresh-zh-cn
+
+debtap (用于安装deb包,)
+sudo pacman -S debtap
+sudo debtap -u
+debtap xxx.deb
+sudo pacman -U xxx.pkg.tar.zst

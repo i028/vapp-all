@@ -1,0 +1,6 @@
+2023-09-03 01:18:10.021 [info] 日志级别: Info
+2023-09-03 01:18:10.021 [info] 正在验证在以下位置找到的 git: "git"
+2023-09-03 01:18:10.021 [info] 将使用位于 "2.42.0" 的 Git "git"
+2023-09-03 01:18:10.021 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-03 01:18:10.021 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-03 01:18:41.354 [info] > git rev-parse --show-toplevel [1ms]

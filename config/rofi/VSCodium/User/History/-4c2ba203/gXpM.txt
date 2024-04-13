@@ -1,0 +1,9 @@
+Arch Linux Notes
+
+libreoffice
+sudo pacman -S libreoffice-fresh libreoffice-fresh-zh-cn
+
+debtap
+sudo pacman -S debtap
+sudo debtap -u
+

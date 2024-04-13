@@ -1,0 +1,4 @@
+Arch Linux Notes
+
+libreoffice
+sudo pacman -S libreoffice-fresh libreoffice-fresh-zh-cn

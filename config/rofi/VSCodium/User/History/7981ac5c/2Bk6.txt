@@ -1,0 +1,3 @@
+sudo vim /usr/bin/microsoft-edge
+
+export LANGUAGE=ZH-CN.UTF-8

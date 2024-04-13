@@ -1,0 +1,33 @@
+Arch Linux Notes
+
+libreoffice
+sudo pacman -S libreoffice-fresh libreoffice-fresh-zh-cn
+
+debtap (用于安装deb包,)
+sudo pacman -S debtap
+sudo debtap -u
+sudo debtap xxx.deb
+sudo pacman -U xxx.pkg.tar.zst
+
+
+
+通过登录管理器进入DWM
+使用root权限到/usr/share/xsessions/新建一个文件，名称可以为dwm.desktop，内容如下：
+
+# /usr/share/xsessions/dwm.desktop
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dwm
+Comment=Dynamic window manager
+Exec=dwm
+Icon=dwm
+Type=XSession
+然后启动登录管理器，例如SDDM，即可在登录界面选择DWM然后进入到DWM了。
+
+
+lxrandr 分辨率与刷新率设置
+    可以用xrandr -q查看当前显示器的分辨率，刷新率，以及当前显示器所使用的模式。
+
+kdiff3 解决冲突的工具
+    kdiff3 是一个用于解决冲突的工具，可以用于解决git冲突。
